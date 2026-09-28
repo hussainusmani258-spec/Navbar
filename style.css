@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  width: 100%;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #09090b;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #09090b;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border:none;
+}
+
+.nav-links a span {
+  font-size: 10px;
+  color: #71717a;
+}
+.border{
+  border:none;
+
+}
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+select{
+    border:none;
+    background-color:transparent;
+}
+.login-btn {
+  text-decoration: none;
+  color: #09090b;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+.signup-btn {
+  text-decoration: none;
+  background-color: #09090b;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.signup-btn:hover {
+  background-color: #27272a;
+}
